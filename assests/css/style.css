@@ -197,18 +197,18 @@ html {
     font-size: 12px;
     font-weight: 600;
     color: rgb(0, 237, 130);
-    padding-bottom: 20px;
+    padding-bottom: 25px;
 }
 
 .bg-item-txt {
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 600;
     color: white;
-    margin-top: 16px;
+    margin-top: 20px;
 }
 
 .bg-item-btn {
-    margin-top: 25px;
+    margin-top: 50px;
 }
 
 .bg-item-btn button {
@@ -226,10 +226,24 @@ html {
     -o-border-radius: 5px;
 }
 
-.terms {}
+.terms {
+    color: white;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.terms:hover,
+.terms:active,
+.terms:visited,
+.terms:link,
+.terms:link {
+    color: white;
+}
 
 .hulu-only a {
     font-size: 16px;
     font-weight: 400;
     text-decoration: underline;
+    color: white;
+    margin-top: 16px;
 }
