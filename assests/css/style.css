@@ -770,6 +770,7 @@ hr {
     letter-spacing: 0;
     color: #fff;
     margin-bottom: 16px;
+    height: 45px;
 }
 
 .plan-head-btn a {
@@ -1375,6 +1376,9 @@ input:focus {
     }
     .featured-card .col::after {
         display: none;
+    }
+    .include-head-msg {
+        padding: 0px;
     }
 }
 
