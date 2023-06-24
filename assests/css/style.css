@@ -1054,6 +1054,79 @@ footer .footer--legal-links-right-col>* {
     display: none;
 }
 
+
+/* /////////////MODAL */
+
+.modal-header {
+    border-bottom: 0px !important;
+}
+
+.modal-footer {
+    border-top: 0px !important;
+}
+
+.modal-content h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.tips {
+    color: rgb(99, 110, 133);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.tips button {
+    color: rgb(60, 136, 235);
+    background-color: transparent;
+    border: none;
+}
+
+.form-content {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: rgb(84, 94, 114);
+}
+
+input:active,
+input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.forget-link a {
+    color: rgb(60, 136, 235);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.login-btn {
+    background: rgb(147, 149, 154);
+    border-radius: 4px;
+    color: white;
+    padding: 10px 0px;
+    border: none;
+    width: 100%;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+}
+
+.start-trial {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.start-trial a {
+    color: rgb(60, 136, 235);
+}
+
 @media (max-width: 767px) {
     .bg-item-txt {
         font-size: 18px;
