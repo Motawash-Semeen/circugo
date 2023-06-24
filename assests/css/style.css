@@ -1076,6 +1076,12 @@ footer .footer--legal-links-right-col>* {
     .live-head-msg {
         font-size: 16px;
     }
+    .card-text p {
+        font-size: 12px;
+    }
+    .card-text h3 {
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -1088,6 +1094,9 @@ footer .footer--legal-links-right-col>* {
     .include-head-title,
     .live-head-title {
         font-size: 32px;
+    }
+    .featured-card .col {
+        padding: 5px !important;
     }
 }
 
