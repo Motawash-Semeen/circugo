@@ -29,6 +29,8 @@ const content1 = document.getElementById("content1");
 const content2 = document.getElementById("content2");
 const content11 = document.getElementById("content11");
 const content22 = document.getElementById("content22");
+const content15 = document.getElementById("content15");
+const content25 = document.getElementById("content25");
 
 switchToggle.addEventListener("change", function() {
     if (this.checked) {
@@ -36,11 +38,15 @@ switchToggle.addEventListener("change", function() {
         content2.classList.add("active");
         content11.classList.remove("active-head");
         content22.classList.add("active-head");
+        content15.classList.remove("active");
+        content25.classList.add("active");
     } else {
         content1.classList.add("active");
         content2.classList.remove("active");
         content11.classList.add("active-head");
         content22.classList.remove("active-head");
+        content15.classList.add("active");
+        content25.classList.remove("active");
     }
 });
 
